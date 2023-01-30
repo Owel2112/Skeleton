@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skeleton | Practice</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+ </div>
+  
+  <div class="card">
+
+    <div class="card-img skeleton">
+      <img src="images/background.image.avif" alt="Background-image">
+    </div>
+
+    <a href="#" class="card-title skeleton">Skeleton CSS</a>
+    <p class="card-description skeleton">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt laudantium recusandae placeat, sed accusantium consectetur iusto earum voluptatibus vitae tempore necessitatibus. Maiores ullam quos ut voluptatem a quia corrupti?
+    Quibusdam voluptates doloribus corporis sit incidunt accusamus enim tenetur temporibus aspernatur iste iure labore, explicabo beatae officiis sint aperiam, hic ad animi dicta iusto officia. Totam inventore ducimus eveniet dolore.</p>
+  </div>
+  
+  <script>
+    const allSkeleton = document.querySelectorAll('.skeleton')
+
+    window.addEventListener('load', function(){
+      allSkeleton.forEach(item=>{
+        item.classList.remove('skeleton')
+      })
+    })
+  </script>
+
+</body>
+</html>
